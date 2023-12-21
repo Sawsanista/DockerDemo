@@ -1,0 +1,27 @@
+{
+  "name": "bms-demo3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login" : "npx playwright test "
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@faker-js/faker": "8.3.1",
+    "@playwright/test": "^1.38.0",
+    "@types/node": "^20.9.1",
+    "allure-playwright": "^2.9.2",
+    "cucumber": "^6.0.7",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "otpauth":"8.0.1"
+  }
+
+}
